@@ -15,12 +15,12 @@ for i in range(int(len([name for name in os.listdir('./deltaE_input')])/5)):
     image2_lab = cv2.cvtColor(image2_rgb.astype(np.float32) / 255, cv2.COLOR_RGB2Lab)
     image3_lab = cv2.cvtColor(image3_rgb.astype(np.float32) / 255, cv2.COLOR_RGB2Lab)
 
-    delta_E_batchnorm = colour.delta_E(image1_lab, image2_lab)
-    delta_E_spectralnorm = colour.delta_E(image1_lab, image3_lab)
+    delta_E_1 = colour.delta_E(image1_lab, image2_lab)
+    delta_E_2 = colour.delta_E(image1_lab, image3_lab)
 
-    meanBatch = str(i + 1) + " - " + str(np.mean(delta_E_batchnorm))
-    meanSpectral = str(np.mean(delta_E_spectralnorm))
-    out.write(meanBatch + " " + meanSpectral + "\n")
+    cnn1 = str(i + 1) + " - " + str(np.mean(delta_E_1))
+    cnn2 = str(np.mean(delta_E_2))
+    out.write(cnn1 + " " + cnn2 + "\n")
 
 
 
