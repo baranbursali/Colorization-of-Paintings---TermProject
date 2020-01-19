@@ -13,7 +13,7 @@ plots for their related topic, accuracy and Delta-E calculations (which is used 
 eye perceives color difference) on results and related works.While there are previous work of similar types of
 networks on colorizations, they are not specific to paintings.
 
-<img src="http://drive.google.com/uc?export=view&id=10DgDZCYYvLNS9u3juYrOfwrlnpUwcCZP" alt="Sample" ><br>
+<img src="https://i.ibb.co/Vx7ZDPN/img.jpg" alt="Sample" ><br>
 
 GAN:
 There are 2 neural network model in Generative Adversarial Networks. These are “Generator” and
@@ -48,7 +48,7 @@ After we finished our training and validation, we analyzed our outputs for both 
 others’ spectral normalized model on Delta-E and LAB color based accuracy formula which are shown in
 “Validation and Results” section.
 
-<img src="http://drive.google.com/uc?export=view&id=15TxlG9FMN_ggGnBwP7Szn7cFBD_7g0te" alt="Method" ><br>
+<img src="https://i.ibb.co/NFkG420/Method-Page-1-1.png" alt="Method" ><br>
 
 On a typical scale, the Delta E value will range from 0 to 100.<br><br>
 Delta E Perception<br>
@@ -59,8 +59,8 @@ Delta E Perception<br>
 100 Colors are exact opposite<br>
 <br>
 Discriminator accuracy change in training by epochs<br>
-<img src="http://drive.google.com/uc?export=view&id=1qcxKjHa5nWNR4ZMzfhbMBEPPmvEbQrT2" alt="Graph" ><br><br>
-<img src="http://drive.google.com/uc?export=view&id=1pH1FVzJyGyLE_2dBQ6J2u5l8atAFRiyZ" alt="Result" ><br>
+<img src="https://i.ibb.co/HVffXwf/training-discriminator-accuracy.png" alt="Graph" ><br><br>
+<img src="https://i.ibb.co/0XhVMVn/result.jpg" alt="Result" ><br>
 
 Dataset : Elliot J. Crowley, Ernesto Coto and Andrew Zisserman, The Paintings Dataset, https://www.robots.ox.ac.uk/~vgg/data/paintings/, 2020
 <br><strong>All GAN training process based on tuned and modified version of Károly Harsányi, Image colorization with GANs, https://github.com/karoly-hars/GAN_image_colorizing, 2020</strong>
